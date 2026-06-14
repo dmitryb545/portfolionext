@@ -1,5 +1,4 @@
-// import PageToggle from "@/components/PageToggle";
-import WorksSection from "@/components/WorksSection";
+import PageToggle from "@/components/PageToggle";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export default function ProjectsPage() {
   return (
     <main className="content">
       <div className="conteiner">
-        <WorksSection />
+        <PageToggle />
       </div>
     </main>
   );

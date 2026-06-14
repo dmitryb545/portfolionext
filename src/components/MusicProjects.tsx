@@ -3,6 +3,8 @@ import "./MusicProjects.css";
 import ProjectLinks from "./ProjectLinks";
 import Image from "next/image";
 
+// 👇 Импортируем JSON через assert { type: "json" }
+// Это стандартный способ для новых версий Next/Turbopack
 import projects from "../data/musicprojects.json" assert { type: "json" };
 
 interface Project {
